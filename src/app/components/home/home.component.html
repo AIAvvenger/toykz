@@ -1,0 +1,146 @@
+
+
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-xs-6">
+						<div class="shop">
+							<div class="shop-img">
+								<img src="/assets/img/shop01.png" alt="">
+							</div>
+							<div class="shop-body">
+								<h3>Most popular toasters<br>Collection</h3>
+								<a href="#" class="cta-btn">Choose now <i class="fa fa-arrow-circle-right"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-xs-6">
+						<div class="shop">
+							<div class="shop-img">
+								<img src="/assets/img/shop03.png" alt="">
+							</div>
+							<div class="shop-body">
+								<h3>Most popular places<br>Collection</h3>
+								<a href="#" class="cta-btn">Choose now <i class="fa fa-arrow-circle-right"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-xs-6">
+						<div class="shop">
+							<div class="shop-img">
+								<img src="/assets/img/shop02.png" alt="">
+							</div>
+							<div class="shop-body">
+								<h3>Most popular enterainment<br>Collection</h3>
+								<a href="#" class="cta-btn">Fun now <i class="fa fa-arrow-circle-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<hr class="new1">
+		<h4 style="text-align:center;"> {{ text1 | lowercase }} </h4>
+			<h3 [ngClass]="isGreen ? 'text-green' : 'text-red' ">{{ text | uppercase }}<h3>
+				<ul *ngIf="numbers.length > 0">
+					<li *ngFor="let number of numbers">{{ number}}</li>
+				</ul>
+				<p *ngIf="numbers.length == 0">NO DATA</p>
+
+		<hr class="new1">
+
+				<p>Average price for Places - {{ cash | currency }}</p>
+				<p>Average price for Toasters - {{ cash1 | currency }}</p>
+				<p>Average price for Food - {{ cash2 | currency }}</p>
+				<p>Average price for Enterainment - {{ cash3 | currency }}</p>
+				<p>Average price for Cameraman - {{ cash4 | currency }}</p>
+
+		<hr class="new1">
+
+				<p>Last update - {{ date | date }}</p>
+
+
+
+
+
+		<div id="hot-deal" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="hot-deal">
+							<ul class="hot-deal-countdown">
+								<li>
+									<div>
+										<h3>02</h3>
+										<span>Days</span>
+									</div>
+								</li>
+								<li>
+									<div>
+										<h3>10</h3>
+										<span>Hours</span>
+									</div>
+								</li>
+								<li>
+									<div>
+										<h3>34</h3>
+										<span>Mins</span>
+									</div>
+								</li>
+								<li>
+									<div>
+										<h3>60</h3>
+										<span>Secs</span>
+									</div>
+								</li>
+							</ul>
+							<h2 class="text-uppercase">Specials in honor of the holidays</h2>
+							<p>30% discount on all selection</p>
+							<a class="primary-btn cta-btn" href="#">Look now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section">
+			<div class="container">
+				<div class="row">
+
+				</div>
+			</div>
+		</div>
+		<div id="newsletter" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="newsletter">
+							<p>Sign Up to get <strong>MORE BONUSES</strong></p>
+							<form>
+								<input class="input" type="text" [(ngModel)]=name name="name" placeholder="Enter Your Email"/>
+								<button class="newsletter-btn"><i class="fa fa-envelope"></i> {{name}} Welcome</button>
+							</form>
+							<ul class="newsletter-follow">
+								<li>
+									<a href="https://vk.com/zznmon"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li>
+									<a href="https://vk.com/zznmon"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="https://vk.com/zznmon"><i class="fa fa-instagram"></i></a>
+								</li>
+								<li>
+									<a href="https://vk.com/zznmon"><i class="fa fa-pinterest"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
