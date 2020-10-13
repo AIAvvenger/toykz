@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -8,9 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   text: string = 'The number of new ads (Places, Toasters, Food, Cameraman, Enterainment)';
-  text1: string = 'I will change to a more beautiful design'
   numbers: number[]=[120,20,35,55,14]
-
   isGreen: boolean = false;
 
   cash: number = 560.99;
@@ -21,7 +19,8 @@ export class HomeComponent implements OnInit {
 
   date = new Date();
 
-  public name="";
+  public name="Example";
+  userText: string = 'example'
 
   constructor() { }
 

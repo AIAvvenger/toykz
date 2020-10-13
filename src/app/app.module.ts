@@ -12,6 +12,8 @@ import { CheckoutComponent } from './components/checkout/checkout.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProductComponent } from './components/product/product.component';
 import { ThankyouComponent } from './components/thankyou/thankyou.component';
+import { LoginComponent } from './components/login/login.component';
+import { StoreComponent } from './components/store/store.component';
 
 @NgModule({
   declarations: [
@@ -22,8 +24,10 @@ import { ThankyouComponent } from './components/thankyou/thankyou.component';
     CheckoutComponent,
     HomeComponent,
     ProductComponent,
-    ThankyouComponent
-  ],
+    ThankyouComponent,
+    LoginComponent,
+    StoreComponent
+    ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

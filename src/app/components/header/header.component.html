@@ -7,8 +7,9 @@
 						<li><a href="#"><i class="fa fa-map-marker"></i>Zhibek Zholy 53</a></li>
 					</ul>
 					<ul class="header-links pull-right">
-						<li><a href="#"><i class="fa fa-dollar"></i> USD</a></li>
-						<li><a href="#"><i class="fa fa-user-o"></i> My Account</a></li>
+						<li><a href="#"><i class="fa fa-dollar"></i>Bank</a></li>
+						<li><a (click)="onBackButtonClick()"><i class="fa fa-sign-in"></i> Login</a></li>
+						<li><a><i class="fa fa-user-o"></i> My Account</a></li>
 					</ul>
 				</div>
 			</div>
@@ -19,7 +20,7 @@
 						<div class="col-md-3">
 							<div class="header-logo">
 								<a href="#" class="logo">
-									<img src="/assets/img/logo.png" alt="">
+									<img src="/assets/img/logo.jpg" alt="">
 								</a>
 							</div>
 						</div>
@@ -84,7 +85,7 @@
 										</div>
 										<div class="cart-btns">
 											<a href="#">View Cart</a>
-											<a href="#">BOOKING<i class="fa fa-arrow-circle-right"></i></a>
+											<a (click)="toCheckout()" >BOOKING<i class="fa fa-arrow-circle-right"></i></a>
 										</div>
 									</div>
 								</div>
@@ -106,12 +107,12 @@
 			<div class="container">
 				<div id="responsive-nav">
 					<ul class="main-nav nav navbar-nav">
-						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">Home</a></li>
 						<li><a href="#">DICSOUNT</a></li>
 						<li><a href="#">Cameramen</a></li>
-						<li><a href="#">Restaurants</a></li>
+						<li><a (click)="toRestaurant()" >Restaurants</a></li>
 						<li><a href="#">Toasters</a></li>
-						<li><a href="#">Dancers</a></li>
+						<li><a href="#">Enterainment</a></li>
 						<li><a href="#">Food</a></li>
 					</ul>
 				</div>
