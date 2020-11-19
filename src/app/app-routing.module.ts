@@ -7,11 +7,15 @@ import { CheckoutComponent } from './components/checkout/checkout.component';
 import { ThankyouComponent } from './components/thankyou/thankyou.component';
 import { LoginComponent } from './components/login/login.component';
 import { StoreComponent } from './components/store/store.component';
-
+import { AdminpanelComponent } from './components/adminpanel/adminpanel.component';
+import { AdminGuard} from './admin.guard';
 
 const routes: Routes = [
   {
     path: '', component: HomeComponent
+  },
+  {
+    path: 'admin', component: AdminpanelComponent, canActivate: [AdminGuard]
   },
   {
     path: 'product', component: ProductComponent
