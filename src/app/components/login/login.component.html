@@ -9,6 +9,8 @@
     <ul class="nav nav-tabs final-login">
         <li class="active"><a data-toggle="tab" href="#sectionA">Sign In</a></li>
         <li><a data-toggle="tab" href="#sectionB">Sign Up</a></li>
+        <li><a data-toggle="tab" href="#sectionC">One-time</a></li>
+
     </ul>
     <div class="tab-content">
         <div id="sectionA" class="tab-pane fade in active">
@@ -67,6 +69,19 @@
             <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
             </ul>
             </div>
+        </div>
+        <div id="sectionC" class="tab-pane fade">
+
+        <div class="innter-form">
+            <form class="sa-innate-form" method="post" [formGroup]="onetimeForm" (ngSubmit)="onBtn()">
+            <label>Phone number</label>
+            <input type="text" name="phone" formControlName="phone">
+            <label>Code</label>
+            <input type="text" name="code" formControlName="code">
+            <button type="submit">Submit</button>
+            </form>
+        </div>
+            <div class="clearfix"></div>
         </div>
     </div>
     </div>
