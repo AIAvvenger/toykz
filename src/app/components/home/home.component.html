@@ -63,7 +63,7 @@
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
-								<img src="/assets/img/toaster.jpg" alt="">
+								<img src="/assets/img/toa1.jpg" alt="">
 							</div>
 							<div class="product-body">
 								<p class="product-category">Toasters</p>
@@ -252,22 +252,17 @@
 				</div>
 			</div>
 		</div>
-
-
-		<h4 style="text-align:center;" [ngClass]="isGreen ? 'text-green' : 'text-red' ">{{ text | uppercase }}<h4>
-			<ul *ngIf="numbers.length > 0">
-				<li *ngFor="let number of numbers">{{ number}}</li>
-			</ul>
 		<p *ngIf="numbers.length == 0">NO DATA</p>
 			<p>Average price for Places - {{ cash | currency }}</p>
 			<p>Average price for Toasters - {{ cash1 | currency }}</p>
 			<p>Average price for Food - {{ cash2 | currency }}</p>
 			<p>Average price for Enterainment - {{ cash3 | currency }}</p>
 			<p>Average price for Cameraman - {{ cash4 | currency }}</p>
-
 			<p>Last update - {{ date | date }}</p>
-
-
+			<ul *ngIf="numbers.length > 0">
+				<li *ngFor="let number of numbers">{{ number}}</li>
+			</ul>
+					<h4 style="text-align:center;" [ngClass]="isGreen ? 'text-green' : 'text-red' ">{{ text | uppercase }}<h4>
 		<div id="newsletter" class="section">
 			<div class="container">
 				<div class="row">

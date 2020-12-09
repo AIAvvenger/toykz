@@ -16,6 +16,7 @@ import { ThankyouComponent } from './components/thankyou/thankyou.component';
 import { LoginComponent } from './components/login/login.component';
 import { StoreComponent } from './components/store/store.component';
 import { AdminpanelComponent } from './components/adminpanel/adminpanel.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { AdminpanelComponent } from './components/adminpanel/adminpanel.componen
     BrowserAnimationsModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

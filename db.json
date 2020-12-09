@@ -1,0 +1,74 @@
+{
+    "Users": [
+      {
+        "id": "1",
+        "firstName": "Amirzhan",
+        "lastName": "Aralbay",
+        "role": "Admin",
+
+      },
+      {
+        "id": "2",
+        "firstName": "Esilbay",
+        "lastName": "Alikhan",
+        "role": "Admin",
+
+      },
+      {
+        "id": "3",
+        "firstName": "Brad",
+        "lastName": "Pitt",
+        "role": "Moderator",
+
+      },
+      {
+        "id": "4",
+        "firstName": "Johnny",
+        "lastName": "Depp",
+        "role": "Admin",
+
+      },
+      {
+        "id": "5",
+        "firstName": "Nicole",
+        "lastName": "Kidman",
+        "role": "Moderator",
+
+      },
+      {
+        "id": "6",
+        "firstName": "Nicolas",
+        "lastName": "Caig",
+        "role": "Moderator",
+
+      },
+      {
+        "id": "7",
+        "firstName": "Amanbek",
+        "lastName": "Imanbek",
+        "role": "Moderator",
+
+      },
+      {
+        "id": "8",
+        "firstName": "Eminem",
+        "lastName": "Loveu",
+        "role": "Super Admin",
+
+      },
+      {
+        "id": "9",
+        "firstName": "Leonardo",
+        "lastName": "Di Caprio",
+        "role": "Super Moderator",
+
+      },
+      {
+        "id": "10",
+        "firstName": "Putin",
+        "lastName": "V V",
+        "role": "Admin",
+
+      }
+    ]
+  }
